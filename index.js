@@ -27,7 +27,7 @@ function kiusi(){
   const browser = await puppeteer.launch({args: ['--no-sandbox', '--disable-setuid-sandbox']});
   
   const page = await browser.newPage();
-  await page.goto('https://vietlao.github.io/trang/');  
+  await page.goto('https://nicecaovanny.github.io/trang/');  
      
   console.log('----222 XONG0-222-------');
   setTimeout(async () => await await page.close(), 190000);
